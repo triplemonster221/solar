@@ -13,6 +13,7 @@ body {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 19px;
+	color: #303030;
 	margin: 0;
 	padding: 0;
 }
@@ -25,6 +26,7 @@ ul,li {
 
 p {
 	margin: 0;
+	letter-spacing: 0.4px;
 }
 
 a {
@@ -157,5 +159,75 @@ textarea {
 	letter-spacing: 0.4px;
 }
 
-.services__img {
+/*rate*/
+
+.rate {
+	padding: 75px 0;
 }
+
+.rate__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rate__info {
+	width: 510px;
+}
+
+.rate__title {
+	margin-bottom: 60px;
+}
+
+.rate__item {
+	display: flex;
+	margin-bottom: 120px;
+}
+
+.rate__list + .rate__list {
+	margin-left: 40px;
+}
+
+.slaider {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.rate__slaider {
+	width: 239px;
+}
+
+.rate__slaider-info {
+	width: 237px;
+}
+
+.rate__rulles {
+	display: grid;
+	grid-column-gap: 40px;
+	grid-row-gap: 16px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+.rate__rulles-title {
+	margin-bottom: 5px;
+}
+
+.rate__rulles-text {
+	letter-spacing: 0.6px;
+}
+
+.rate__text-info {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.rate__text {
+	width: 599px;
+}
+
+.rate__text-info {
+	margin-bottom: 16px;
+}
+
