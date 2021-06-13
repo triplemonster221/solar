@@ -249,3 +249,22 @@ textarea {
 	margin-bottom: 16px;
 }
 
+/*tagline*/
+
+.tagline {
+	padding: 128px 10px 144px;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tagline__info {
+	display: block;
+	max-width: 673px;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 42px;
+	line-height: 57px;
+	text-align: center;
+	color: #FFFFFF;
+}
