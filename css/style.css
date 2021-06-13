@@ -188,9 +188,27 @@ textarea {
 }
 
 .slaider {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 100px;
+}
+
+.arrows {
+	position: absolute;
+	bottom: 0;
+	z-index: 3;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.slick-prev {
+	left: 0;
+}
+
+.slick-next {
+	left: 65px;
 }
 
 .rate__slaider {
