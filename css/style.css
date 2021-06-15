@@ -283,4 +283,100 @@ textarea {
 
 .rate__item-content--active {
 	display: block;
+
+}
+
+/*clients*/
+
+.clients {
+	padding-top: 150px;
+	margin-bottom: 150px;
+}
+
+.clients__slaider {
+	display: flex;
+}
+
+.clients__slaider-sl {
+	width: 510px;
+}
+
+.clients__slaider-content {
+	width: 544px;
+	margin-left: 90px;
+}
+
+.clients__slaider-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #303030;
+	margin-bottom: 30px;
+}
+
+.clients__slaider-text + .clients__slaider-text {
+	margin-top: 15px;
+}
+
+.clients__slaider-info ul {
+	margin-bottom: 65px;
+}
+
+.clients__arrows {
+	bottom: -32px;
+}
+
+/*.clients__arrows .slick-next {
+	right: 128px;
+}*/
+
+.slick-next.clients__next {
+	left: 340px;	
+}
+
+.slick-prev.clients__prev {
+	left: 265px;
+} 
+
+/*steeps*/
+
+.steeps {
+	margin-bottom: 150px;
+}
+
+.steeps__items li {
+	list-style-type: decimal;
+}
+
+.steeps__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.steeps__title {
+	margin-bottom: 60px;
+}
+
+.steeps__content {
+	max-width: 500px;
+	width: 100%;
+}
+
+.steeps__list-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;color: #303030;
+}
+
+.steeps__list + .steeps__list {
+	margin-top: 60px;
+}
+
+.steeps__list {
+	position: relative;
+}
+
+.steeps__list::marker {
+	position: absolute;
 }
