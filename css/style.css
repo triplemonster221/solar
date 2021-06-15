@@ -191,6 +191,9 @@ textarea {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
+}
+
+.item__wrap {
 	margin-bottom: 100px;
 }
 
@@ -267,4 +270,17 @@ textarea {
 	line-height: 57px;
 	text-align: center;
 	color: #FFFFFF;
+}
+
+.rate__link--active {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000;
+}
+
+.rate__item-content {
+	display: none;
+}
+
+.rate__item-content--active {
+	display: block;
 }

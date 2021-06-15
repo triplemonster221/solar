@@ -19,4 +19,20 @@
       });
 
 
+      $('.rate__link').on('click', function(e){
+         e.preventDefault();
+
+
+         $('.rate__link').removeClass("rate__link--active");
+         $(this).addClass("rate__link--active");
+
+
+         $(".rate__item-content").removeClass('rate__item-content--active');
+         $($(this).attr('href')).addClass('rate__item-content--active');
+      });
+
+
+
+
+
     });
